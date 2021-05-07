@@ -2,6 +2,7 @@
 
 function OpenCon()
  {
+ //Personalize com as opções de seu banco
  $dbhost = "localhost";
  $dbuser = "root";
  $dbpass = "";
