@@ -81,6 +81,6 @@ Relatório
 
 Para verificar todos os pedidos que foram abertos pelo representante, clique no botão "Relatório" do menu acima, nele você encontrará um resumo de todos os pedidos que foram abertos e finalizados, podendo através do botão "finalizar pedido" finalizar os pedidos em Aberto e enviar o email automaticamente para o setor responsável.
 
-![alt text](http://brandtextil.com.br/representantes/menu_representantes/img/relat%C3%B3rios.png)
+![alt text](http://samuelwebdev.com/portfolio/images/ultima_imagem.png)
 
 
