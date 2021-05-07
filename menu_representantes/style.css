@@ -1,0 +1,159 @@
+			button {
+				padding: 15px;
+				margin:15px;
+			}
+			h1 {
+				color:Black;
+				font-family:Verdana, sans-serif;
+				}
+			.menuStyle{
+				text-align:center;
+				padding-top:50px;					
+			}		
+			/*Conteudo da Pagina*/
+			.content{
+				font-size:20px;
+				padding-left:450px;
+				padding-right:50px;
+				font-family:Verdana, sans-serif;
+				text-align:center;				
+			}
+			.content > h1{
+				color:Black;
+				font-family:Verdana, sans-serif;
+			}
+				/*BARRA DE NAVEGACAO CSS*/				
+				li a {
+				display: block;
+				color: #000;
+				padding: 8px 16px;
+				text-decoration: none;
+                font-family:Verdana, sans-serif;
+				}
+
+				li a.active {
+				background-color: #45a049;
+				color: white;
+				}
+
+				li a:hover:not(.active) {
+				background-color: #555;
+				color: white;
+				}
+				ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					width: 25%;
+					background-color: #f1f1f1;
+					height: 100%; /* Altura Completa */
+					position: fixed; /* Faz o menu não descer */
+					overflow: auto; /* Permite dar um scroll na barra caso tenha muito conteudo */
+				}
+
+
+				/* FIM BARRA DE NAVEGACAO*/	
+				/*FORMULARIO */
+				input[type=text], select {
+					width: 100%;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					box-sizing: border-box;
+				  }
+				  input[type=password] {
+					width: 100%;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					box-sizing: border-box;
+				  }
+				  input[type=submit] {
+					width: 100%;
+					background-color: #45a049;
+					color: white;
+					padding: 14px 20px;
+					margin: 8px 0;
+					border: none;
+					border-radius: 4px;
+					cursor: pointer;
+				  }
+				  
+				  input[type=submit]:hover {
+					background-color: #45a049;
+				  }
+				  
+				  div {
+					border-radius: 5px;
+					background-color: #f2f2f2;
+					padding: 20px;
+				  }
+
+				  .ac_results {
+					padding: 0px;
+					border: 1px solid #84a10b;
+					background-color: #84a10b;
+					overflow: hidden;
+				}
+				
+				.ac_results ul {
+					width: 100%;
+					list-style-position: outside;
+					list-style: none;
+					padding: 0;
+					margin: 0;
+				}
+				
+				.ac_results li {
+					margin: 0px;
+					padding: 2px 5px;
+					cursor: default;
+					display: block;
+					color: #fff;
+					font-family:verdana;
+					/* 
+					if width will be 100% horizontal scrollbar will apear 
+					when scroll mode will be used
+					*/
+					/*width: 100%;*/
+					font-size: 12px;
+					/* 
+					it is very important, if line-height not setted or setted 
+					in relative units scroll will be broken in firefox
+					*/
+					line-height: 16px;
+					overflow: hidden;
+				
+				}
+				
+				.ac_loading {
+					background: white url('../images/indicator.gif') right center no-repeat;
+				}
+				
+				.ac_odd {
+					background-color: #84a10b;
+					color: #ffffff;
+				}
+				
+				.ac_over {
+					background-color: #5a6b13;
+					color: #ffffff;
+				}
+				
+				
+				.input_text{
+					font-family:Arial, Helvetica, sans-serif;
+					font-size:12px;
+					border:1px solid #84a10b;
+					padding:2px;
+					width:150px;
+					color:#000;
+					background:white url(../images/search.png) no-repeat 3px 2px;
+					padding-left:17px;
+				}
+
+			/*FIM CSS*/	

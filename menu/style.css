@@ -1,0 +1,101 @@
+			body {
+				background-color: #f1f1f1;
+			}
+			button {
+				padding: 15px;
+				margin:15px;
+			}
+			h1 {
+				color:Black;
+				font-family:Verdana, sans-serif;
+				}
+			.menuStyle{
+				text-align:center;
+				padding-top:50px;					
+			}		
+			/*Conteudo da Pagina*/
+			.content{
+				font-size:20px;
+				padding-left:450px;
+				padding-right:50px;
+				font-family:Verdana, sans-serif;
+				text-align:center;				
+			}
+			.content > h1{
+				color:Black;
+				font-family:Verdana, sans-serif;
+			}
+				/*BARRA DE NAVEGACAO CSS*/				
+				li a {
+				display: block;
+				color: #000;
+				padding: 8px 16px;
+				text-decoration: none;
+                font-family:Verdana, sans-serif;
+				}
+
+				li a.active {
+				background-color: #3256F0;
+				color: white;
+				}
+
+				li a:hover:not(.active) {
+				background-color: #555;
+				color: white;
+				}
+				ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					width: 25%;
+					background-color: #f1f1f1;
+					height: 100%; /* Altura Completa */
+					position: fixed; /* Faz o menu não descer */
+					overflow: auto; /* Permite dar um scroll na barra caso tenha muito conteudo */
+				}
+
+
+				/* FIM BARRA DE NAVEGACAO*/	
+				/*FORMULARIO */
+				input[type=text], select {
+					width: 100%;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					box-sizing: border-box;
+				  }
+				  input[type=password] {
+					width: 100%;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					box-sizing: border-box;
+				  }
+				  input[type=submit] {
+					width: 100%;
+					background-color: #3256F0;
+					color: white;
+					padding: 14px 20px;
+					margin: 8px 0;
+					border: none;
+					border-radius: 4px;
+					cursor: pointer;
+				  }
+				  
+				  input[type=submit]:hover {
+					background-color: #45a049;
+				  }
+				  
+				  div {
+					border-radius: 5px;
+					background-color: #f2f2f2;
+					padding: 20px;
+				  }
+
+
+
+			/*FIM CSS*/	
